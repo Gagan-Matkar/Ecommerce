@@ -1,0 +1,76 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login and registration page </title>
+    <link rel="stylesheet" href="style.css">
+    <!-- so here i have linked my stylesheet of this page -->
+</head>
+
+<body>
+    <div class="hero">
+        <!-- so here hero is my background space -->
+<!-- and here is the form box for my form -->
+        <div class="form-box">
+            <div class="logo">
+                 <img src="logo.png" alt="">
+                  <!-- <-- so this is the logo of our website which i have inserted here --> 
+            </div>
+            <div class="button-box">
+                <div id="btn"></div>
+                <!-- here i have inserted two buttons which is for login and registration -->
+
+                <button type="button " class="toggle-btn" onclick="login()">log in</button>
+                <button type="button " class="toggle-btn" onclick="register()">Register</button>
+            
+            </div>
+           
+            <div class="social-icons">
+                <img src="images.png" alt="">
+                <img src="facebook_2015_logo.jpg" alt="">
+                <!-- this are the social media logos -->
+
+            </div>
+           <!-- here is the input type which we would take from the user ie thier name, mailid ,password, etc -->
+            <form id="login" class="input-group">
+                <input type="text" class="input-field" placeholder="User Id" name="" id="" required>
+                <input type="text" class="input-field" placeholder="Enter password" name="" id="" required>
+                <input type="checkbox" class="check-box" name="" id=""><span>Remember</span>
+                
+                <button type="submit" class="submit-btn">Log in </button>
+            </form>
+            <form id="register" class="input-group">
+                <input type="text" class="input-field" placeholder="User Id" name="" id="" required>
+                <input type="text" class="input-field" placeholder="Email-id" name="" id="" required>
+                <input type="text" class="input-field" placeholder="Enter password" name="" id="" required>
+                <input type="checkbox" class="check-box" name="" id=""><span>I agree to theterms and conditions</span>
+                <button type="submit" class="submit-btn">register </button>
+            </form>
+            
+        </div>
+    </div>
+
+    <script>
+        // so this is some javascript code which i have refered from google to change between login page and registration page
+        var x =document.getElementById("login");
+        var y =document.getElementById("register");
+        var z = document.getElementById("btn")
+
+        function register(){
+            x.style.left ="-400px";
+            y.style.left = "50px";
+            z.style.left = " 110px";
+        }
+        function login(){
+            x.style.left ="50px";
+            y.style.left = "450px";
+            z.style.left = "";
+        }
+
+
+    </script>
+</body>
+
+</html>

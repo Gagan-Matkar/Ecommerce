@@ -1,0 +1,245 @@
+
+nav{
+    position: fixed;
+}
+
+header .navbar{
+    background-color: rgb(255, 132, 0);
+    
+}
+header .nav-link{
+    color: white;
+    margin-right: 2vw;
+}
+.nav-link:hover{
+    color: orangered;
+}
+/* .navbar-toggler{
+    background-color: rgb(245, 140, 29);
+} */
+
+#telphone{
+    text-decoration: none;
+    color: white;
+}
+.phone:hover{
+    color: orangered;
+}
+
+.scrollTop{
+    position: fixed;
+    bottom: 8vw;
+    right: 6vw;
+    cursor: pointer;
+    z-index: 100000;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.scrollTop .btn{
+    background-color:white;
+    width: 90px;
+    height: 70px;
+}
+.scrollTop .btn:hover{
+    background-color: white;
+}
+
+.scrollTop.active{
+    visibility: visible;
+    opacity: 1;
+}
+
+.un-ord {
+    height: 100%;
+    vertical-align: middle;
+}
+
+/* .un-ord li {
+    display: inline-block;
+} */
+.header2 .nav-link {
+    text-decoration: none;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-left: 30px;
+}
+.dropdown-menu{
+    display: none;
+    /* position: relative; */
+    background-color: #f0f0f0;
+    box-shadow: 2px 8px 16px 0px ;
+    z-index: 20;
+}
+.dropdown-menu a{
+    text-decoration: none;
+    color: black ;
+    font-size: 17px;
+}
+.dropdown-menu  a:hover{
+   color: red;
+}
+.btn {
+    transition: all 0.5s ease-in-out;
+    background-color: rgb(255, 111, 0);
+    color: white;
+    border-radius: 2vw;
+    font-size: 25px;
+    float: right;
+}
+
+.container-fluid a:hover {
+    color: red;
+}
+
+.nav #navigation {
+    border-collapse: initial;
+}
+
+.btn:hover {
+    color: white;
+    background-color: orange;
+}
+
+.offer {
+    padding-top: 70px;
+}
+
+.offer h1 {
+    clear: right;
+    font-size: 5.5vw;
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.offer span {
+    font-family:cursive;
+    font-size: 170%;
+    color: blue;
+}
+
+.offer p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+}
+
+.offer button {
+    float: left;
+}
+
+.container .img-row {
+    background-color: grey;
+}
+
+.mainimg img {
+    margin-left: -15px;
+}
+
+
+.shop-cat h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 250%;
+}
+
+.Category-card .card-img-overlay h3 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: right;
+    font-size: 200%;
+    font-weight: 600;
+    top: 15%;
+    margin-bottom: 10%;
+}
+
+.Category-card .card-img-overlay a {
+    color: black;
+    font-size: 150%;
+    font-weight: 600;
+    background-color: rgba(255, 255, 0, 0.816);
+}
+
+.Category-card .card-img-overlay a:hover {
+    color: darkgoldenrod;
+}
+
+.latest-col a {
+    text-decoration: none;
+}
+
+.active {
+    color: red;
+}
+
+.active:hover{
+    color: red;
+}
+
+.unactive {
+    color: grey;
+}
+.unactive:hover{
+    color: red;
+}
+
+.latest-col a:hover {
+    background-color: whitesmoke;
+    border-radius: 1in;
+}
+
+.latest-col .nav{
+    margin-left: 40%;
+}
+
+.product-card{
+    border: none;
+    background-color: white;
+}
+
+.product-card .card-img-overlay a{
+    color: white;
+    background-color: red;
+    border-radius: 2vw;
+}
+
+.color{
+    color: orange;
+}
+
+.white{
+    color: white;
+}
+
+.green-dress{
+    font-family:'Times New Roman', Times, serif ;
+    font-size: 120%;
+    font-weight: 400;
+}
+
+.green-dress:hover{
+    color: red;
+}
+
+.discount-amount{
+    font-family:'Times New Roman', Times, serif ;
+    font-size: 120%;
+    font-weight: 400;
+}
+
+.amount{
+   color: red;
+}
+
+.ship-method h5{
+    font-weight: bolder;
+}
+
+/* .footer-copyright{
+    color: grey;
+    float: left;
+} */
+
+.grey{
+    color: gray;
+}

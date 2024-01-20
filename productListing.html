@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swag of India</title>
+    <link rel="icon" type="image/png" href="images/flavicon.png">
+    <link rel="stylesheet" href="css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-top top-bg">
+            <div class="container-fluid">
+                <div class="row d-flex justify-content-between align-items-center">
+                    <div class="header-info-left d-flex">
+                        <img src="images/india.png" alt="flag" height="20px" width="25px" id="flag">
+                        <form action="#">
+                            <select name="select" id="select1">
+                                <option value="india">India</option>
+                                <option value="usa">USA</option>
+                                <option value="uae">UAE</option>
+                                <option value="canada">CANADA</option>
+                            </select>
+                        </form>
+                        <ul>
+                            <li>
+                                <a href="" id="contact">+91888888888</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <div class="header-info-right">
+                        <ul>
+                            <li><a href="">My Account</a></li>
+                            <li><a href="">Wish List</a></li>
+                            <li><a href="">Shopping</a></li>
+                            <li><a href="">Cart</a></li>
+                            <li><a href="">Checkout</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="header-bottom" id="header-sticky">
+
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-xl-1 col-lg-1 col-md-1 col-sm-3">
+                        <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+                    </div>
+                    <div class="col-xl-6 col-lg-8 col-md-7 col-sm-5">
+                        <div class="main-menu f-right d-none d-lg-block">
+                            <nav>
+                                <ul id="navigation">
+                                    <li><a href="">Home</a></li>
+                                    <li><a href="">Categories</a>
+                                        <ul class="submenu">
+                                            <li><a href="">Men</a></li>
+                                            <li><a href="">Women</a></li>
+                                            <li><a href="">Children</a></li>
+                                            <li><a href="">Ethnic</a></li>
+                                            <li><a href="">Winter</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="">Latest</a>
+                                        <ul class="submenu">
+                                            <li><a href="">Product List</a></li>
+                                            <li><a href="">Product details</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="">Blog</a></li>
+                                    <li><a href="">Pages</a>
+                                    </li>
+                                    <li><a href="">Contact</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-5 col-lg-3 col-md-3 col-sm-3">
+                        <ul class="header-right f-right d-none d-lg-block d-flex justify-content-between">
+                            <li><i class="far fa-heart"></i></li>
+                            <li><i class="fas fa-shopping-cart"></i></li>
+                            <li><button class="btn header-btn">Sign in</button></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </header>
+    <main>
+        <nav aria-label="breadcrumb" id="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                <li class="breadcrumb-item"><a href="#">Categories</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Winter</li>
+            </ol>
+        </nav>
+        <aside>
+            <nav class="nav flex-column">
+                <a class="nav-link active" href="#">Filter by</a>
+                <a class="nav-link" href="#">- Price</a>
+                <a class="nav-link" href="#">- Discount</a>
+                <a class="nav-link" href="#">- Availablity</a>
+                <a class="nav-link" href="#">- Brand</a>
+                <a class="nav-link" href="#">- Rating</a>
+            </nav>
+        </aside>
+
+
+
+        <section class="latest-product-area padding-bottom">
+            <div class="container">
+                <div class="row d-flex justify-content-end align-items-end">
+
+                    <!--Nav Button  -->
+                    <nav>
+                        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                            <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home"
+                                role="tab" aria-controls="nav-home" aria-selected="true">All</a>
+                            <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile"
+                                role="tab" aria-controls="nav-profile" aria-selected="false">New</a>
+                            <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact"
+                                role="tab" aria-controls="nav-contact" aria-selected="false">Featured</a>
+                            <a class="nav-item nav-link" id="nav-last-tab" data-toggle="tab" href="#nav-last" role="tab"
+                                aria-controls="nav-contact" aria-selected="false">Offer</a>
+                        </div>
+                    </nav>
+                    <!--End Nav Button  -->
+
+                </div>
+                <!-- Nav Card -->
+                <div class="tab-content" id="nav-tabContent">
+                    <!-- card one -->
+                    <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                        <div class="row" id="productsListArea">
+                            
+                        </div>
+                    </div>
+                </div>
+                <!-- End Nav Card -->
+        </section>
+        <!-- Shop Method Start-->
+        <div class="shop-method-area">
+            <div class="container">
+                <div class="row d-flex justify-content-between">
+                    <div class="col-xl-3 col-lg-3 col-md-6">
+                        <div class="single-method">
+                            <h6>Free Shipping Method</h6>
+                            <p>aorem ixpsacdolor sit ameasecur adipisicing elitsf edasd.</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6">
+                        <div class="single-method">
+                            <h6>Secure Payment System</h6>
+                            <p>aorem ixpsacdolor sit ameasecur adipisicing elitsf edasd.</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6">
+                        <div class="single-method">
+                            <h6>Secure Payment System</h6>
+                            <p>aorem ixpsacdolor sit ameasecur adipisicing elitsf edasd.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Shop Method End-->
+    </main>
+
+    <!-- Footer Start-->
+    <div class="footer-area">
+        <div class="container">
+            <!-- Footer bottom -->
+            <div class="row">
+                <div class="col-xl-7 col-lg-7 col-md-7">
+                    <div class="footer-copy-right">
+                        <p>
+                            Copyright &copy; All rights reserved
+                        </p>
+                    </div>
+                </div>
+                <div class="col-xl-5 col-lg-5 col-md-5">
+                    <div class="footer-copy-right f-right">
+                        <!-- social -->
+                        <div class="footer-social">
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-behance"></i></a>
+                            <a href="#"><i class="fas fa-globe"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End-->
+    <a id="scrollUp">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+
+</html>

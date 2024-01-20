@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1,shrink-to-fit=no">
+    <title>Swag of India</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="mainPagestyling.css">
+    <script src="https://kit.fontawesome.com/ba5a85b21b.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="images/png" href="images/flavicon.png">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+</head>
+
+<style>
+    
+</style>
+
+
+<body>
+
+    <!-- below class simply make a button having logo of Up-Arrow  Which takes you directly to the top from bottom.
+        1) it containes a JavaScipt Basic Event (onclick) which direct you toward a function named scrollToTop()  -->
+
+    <div class="scrollTop" onclick="scrollToTop()"><button class="btn"><img src="pictures/up-logo.jpg" alt=""width="100%" height="100%" ></button></div>
+
+
+
+    <!-- our code starts here -->
+
+    <!-- first navbar starts -->
+    <header>
+        <nav class="navbar fixed-top navbar-expand-xl navbar-expand-lg navbar-expand-md">
+
+        <!-- here we just added new ids to option for fluctuation of flags and numbers      -->
+            <img src="pictures/india.png" alt="flag" id="flag" class="navbar-brand" height="40px" width="40px">
+            <select name="country" class="navbar-nav mr-auto">
+                <option id="ind" value="ind">INDIA</option>
+                <option id="usa" value="usa">USA</option>
+                <option id="grmy" value="grmy">GERMANY</option>
+            </select>
+            <a href="#" class="phone" id="telphone">+91 88888888888</a>
+
+            <button class=" navbar-toggler" data-toggle="collapse" data-target="#navbarMenu"
+                style="border-collapse: initial;">
+                <span class="navbar-toggler-icon "><i class=" fas fa-bars fa-lg"></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarMenu">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">My Account</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Whishlist</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Shopping</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Cart</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Checkout</a>
+                    </li>
+                </ul>
+            </div>
+
+        </nav>
+    </header>
+
+    <!-- first navbar ends here -->
+
+
+    <!-- second navbar with logo starts here -->
+
+    <div class="container-fluid header2 mt-5">
+
+        <nav class="row navbar">
+
+            <div class="col col-xl-1 col-lg-1 col-md-1 col-sm-3">
+                <img src="pictures/logo.png" alt="flag" class="navbar-brand" height="100%">
+            </div>
+
+            <div class="col col-xl-6 col-lg-7 col-md-6 col-sm-4 offset-1">
+
+                <ul class="navbar-nav mr-auto d-xl-inline-block d-lg-inline-block d-md-inline-block d-sm-none d-none">
+                    <li class="nav-item list-inline-item ">
+                        <a href="#" class="nav-link ">Home</a>
+                    </li>
+                    <li class="nav-item list-inline-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="categoriesDrop" role="button"
+                            data-toggle="dropdown">Categories</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Womens </a></li>
+                            <li><a href="#">Ethnic Wear </a></li>
+                            <li><a href="#">Mens </a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item list-inline-item">
+                        <a class="nav-link" href="#">Latest</a>
+                    </li>
+                    <li class="nav-item list-inline-item">
+                        <a class="nav-link" href="#">Blogs</a>
+                    </li>
+                    <li class="nav-item list-inline-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+
+            </div>
+
+            <div class="col col-xl-4 col-lg-3 col-md-3 col-sm-4">
+                <ul class="list-inline float-right">
+                    <li class="list-inline-item"><i class="fa fa-heart"></i></li>
+                    <li class="list-inline-item"><i class="fa fa-shopping-cart"></i></li>
+                    <li class="list-inline-item"><a href="login.html" target="_blank"><button class="btn ">Sign
+                                In</button></a></li>
+                </ul>
+            </div>
+
+        </nav>
+    </div>
+
+    <!-- second navbar ends here -->
+
+    <!-- mainImg row star here  -->
+    <div class="container py-5">
+        <div class="row img-row">
+            <div class=" mainimg col-6 col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                <img src="pictures/mainimg.jpg" alt="mainimg" width="90%" height="100%">
+            </div>
+            <div class="offer col-6 col-xl-3 col-lg-5 col-md-5 col-sm-8 ">
+                <span> 60% Discount</span>
+                <h1>Ethenic Collection</h1>
+                <p>Best Cloth Collection of 2021!</p>
+                <a href="register.html" target="_blank"><button class="btn">Sign Up</button></a>
+            </div>
+        </div>
+    </div>
+    <!-- mainImg row ends here -->
+
+
+    <!-- shop by Categories area with some cards including starts here -->
+    <div class="container-fluid px-5">
+
+        <div class="row shop-cat justify-content-center ">
+            <h1>Shop By Categories</h1>
+        </div>
+
+        <div class="row img-cat py-5">
+
+            <div class="col col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                <div class="card Category-card">
+                    <img src="pictures/cat1.jpg" alt="" width="100%">
+                    <div class="card-img-overlay ">
+                        <h3 class="col-xl-12 col-lg-12 col-md-12 col-sm-12">Womens &ensp;</h3>
+                        <a href="#" class="btn" target="_blank">Best New Deals</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                <div class="card Category-card">
+                    <img src="pictures/cat2.jpg" alt="" width="100%">
+                    <div class="card-img-overlay">
+                        <h3 class="col-xl-12 col-lg-12 col-md-12 col-sm-12 ">
+                            <h3>Ethnic Wear</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                <div class="card Category-card">
+                    <img src="pictures/cat3.jpg" alt="" width="100%">
+                    <div class="card-img-overlay">
+                        <h3 class="col-xl-12 col-lg-12 col-md-12 col-sm-12  ">Mens Cloth</h3>
+                        <a href="#" class="btn " target="_blank">Best New Deals</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <!-- shop by Categories area with some cards including ends here -->
+
+
+    <!-- another latest Category area with nav bar starts here -->
+    <div class="container">
+        <!-- first row with navbar starts -->
+        <div class="row shop-cat justify-content-center">
+            <h1>
+                Latest Products
+            </h1>
+        </div>
+
+        <div class="row latest-nav justify-content-end">
+
+            <div class="col latest-col col-xl-6 col-lg-6 col-md-12 col-sm-12">
+
+                <ul class="nav">
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">All</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link unactive" href="#">New</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link unactive" href="#">Featured</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link unactive" href="#">Offer</a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+        <!-- first row with navbar ends -->
+
+
+        <!-- second row with images and cards and symbols starts -->
+        <div class="row">
+            <div class="col col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                <div class="card product-card my-5">
+                    <img src="pictures/product1.png" alt="">
+                    <div class="card-img-overlay">
+                        <h3 class="col-xl-12 col-lg-12 col-md-12 col-sm-12 ">
+                            <a href="#" class="badge">New</a>
+                        </h3>
+                    </div>
+                </div>
+                <div>
+                    <i class="fa fa-star color"></i>
+                    <i class="fa fa-star color"></i>
+                    <i class="fa fa-star color"></i>
+                    <i class="far fa-star low-star"></i>
+                    <i class="far fa-star low-star"></i>
+                </div>
+                <div class="green-dress">
+                    Green Dress with details
+                </div>
+                <div class="discount-amount list-inline">
+                    <li class="discount-amount list-inline-item">$40.00</li>
+                    <li class="amount list-inline-item"><s>$60.00</s></li>
+                </div>
+
+
+
+            </div>
+
+            <div class="col col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                <div class="card product-card my-5">
+                    <img src="pictures/product2.png" alt="">
+                </div>
+
+                <div>
+                    <i class="fa fa-star color"></i>
+                    <i class="fa fa-star color"></i>
+                    <i class="fa fa-star color"></i>
+                    <i class="far fa-star low-star"></i>
+                    <i class="far fa-star low-star"></i>
+                </div>
+                <div class="green-dress">
+                    Green Dress with details
+                </div>
+                <div class="discount-amount list-inline">
+                    <li class="discount-amount list-inline-item">$40.00</li>
+                    <li class="amount list-inline-item"><s>$60.00</s></li>
+                </div>
+
+            </div>
+
+            <div class="col col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                <div class="card product-card my-5">
+                    <img src="pictures/product3.png" alt="">
+                    <div class="card-img-overlay">
+                        <h3 class="col-xl-12 col-lg-12 col-md-12 col-sm-12 ">
+                            <a href="#" class="badge">New</a>
+                        </h3>
+                    </div>
+                </div>
+                <div>
+                    <i class="fa fa-star color"></i>
+                    <i class="fa fa-star color"></i>
+                    <i class="fa fa-star color"></i>
+                    <i class="far fa-star low-star"></i>
+                    <i class="far fa-star low-star"></i>
+                </div>
+                <div class="green-dress">
+                    Green Dress with details
+                </div>
+                <div class="discount-amount list-inline">
+                    <li class="discount-amount list-inline-item">$40.00</li>
+                    <li class="amount list-inline-item"><s>$60.00</s></li>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="col col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                <div class="card product-card my-5">
+                    <img src="pictures/product4.png" alt="">
+                </div>
+                <div>
+                    <i class="fa fa-star color"></i>
+                    <i class="fa fa-star color"></i>
+                    <i class="fa fa-star color"></i>
+                    <i class="far fa-star low-star"></i>
+                    <i class="far fa-star low-star"></i>
+                </div>
+                <div class="green-dress">
+                    Green Dress with details
+                </div>
+                <div class="discount-amount list-inline">
+                    <li class="discount-amount list-inline-item">$40.00</li>
+                    <li class="amount list-inline-item"><s>$60.00</s></li>
+                </div>
+
+            </div>
+
+            <div class="col col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                <div class="card product-card my-5">
+                    <img src="pictures/product5.png" alt="">
+                </div>
+                <div>
+                    <i class="fa fa-star color"></i>
+                    <i class="fa fa-star color"></i>
+                    <i class="fa fa-star color"></i>
+                    <i class="far fa-star low-star"></i>
+                    <i class="far fa-star low-star"></i>
+                </div>
+                <div class="green-dress">
+                    Green Dress with details
+                </div>
+                <div class="discount-amount list-inline">
+                    <li class="discount-amount list-inline-item">$40.00</li>
+                    <li class="amount list-inline-item"><s>$60.00</s></li>
+                </div>
+
+            </div>
+
+            <div class="col col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                <div class="card product-card my-5">
+                    <img src="pictures/product6.png" alt="">
+                    <div class="card-img-overlay">
+                        <h3 class="col-xl-12 col-lg-12 col-md-12 col-sm-12 ">
+                            <a href="#" class="badge">New</a>
+                        </h3>
+                    </div>
+                </div>
+                <div>
+                    <i class="fa fa-star color"></i>
+                    <i class="fa fa-star color"></i>
+                    <i class="fa fa-star color"></i>
+                    <i class="far fa-star low-star"></i>
+                    <i class="far fa-star low-star"></i>
+                </div>
+                <div class="green-dress">
+                    Green Dress with details
+                </div>
+                <div class="discount-amount list-inline">
+                    <li class="discount-amount list-inline-item">$40.00</li>
+                    <li class="amount list-inline-item"><s>$60.00</s></li>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- second row with images and cards and symbols ends -->
+
+    </div>
+    <!-- another latest Category area with nav bar ends here -->
+
+
+
+    <div class="container my-5">
+        <div class="row">
+            <div class="col col-xl-4 col-lg-4 col-md-4 col-sm-12 ship-method">
+                <h5>Free Shipping Method</h5>
+                <p>aorem ixpsacdolor sit ameasecur adipisicing elitsf edasd. </p>
+            </div>
+            <div class="col col-xl-4 col-lg-4 col-md-4 col-sm-12 ship-method">
+                <h5>Secure Payment System</h5>
+                <p>aorem ixpsacdolor sit ameasecur adipisicing elitsf edasd. </p>
+            </div>
+            <div class="col col-xl-4 col-lg-4 col-md-4 col-sm-12 ship-method">
+                <h5>Secure Payment System</h5>
+                <p>aorem ixpsacdolor sit ameasecur adipisicing elitsf edasd. </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="footer-copyright text-center py-5">
+
+            <ul class="list-inline"></ul>
+
+            <li class="list-inline-item float-left grey">
+                <p>Copyright &copy;All rights reserved</p>
+            </li>
+
+            <li class="mx-1 my-1  list-inline-item fas fa-instagram float-right"></li>
+            <li class="mx-1 my-1  list-inline-item fa fa-twitter float-right"></li>
+            <li class="mx-1 my-1  list-inline-item fa fa-globe float-right"></li>
+            <li class="mx-1 my-1  list-inline-item fa fa-facebook-f float-right"></li>
+            <li class="mx-1 my-1  list-inline-item fa fa-whatsapp float-right"></li>
+
+
+
+            </ul>
+        </div>
+    </div>
+
+
+
+ 
+    <script>
+
+    // This is our first so I have use only the basic events only 
+
+    // Here in below 4-5 lines i have made some variables which are pointing towards the given Ids. i.e,#flag #telphone #ind #usa #grmy
+        let img = document.querySelector("#flag");
+        let anchor = document.querySelector("#telphone")
+        let ind = document.querySelector(" #ind ");
+        let usa = document.querySelector(" #usa ");
+        let grmy = document.querySelector(" #grmy ");
+
+
+    // we have use an named addEventListener , this help us give output given inside curly Bracket
+    // (img.src = "images/india.png";      anchor.innerText = "+91 88888888888") on click of any button/link having id ind.
+        ind.addEventListener("click", () => {
+            img.src = "pictures/india.png";
+            anchor.innerText = "+91 88888888888"
+            })
+    // below is same as above just ids are changed
+        usa.addEventListener("click", () => {
+            img.src = "pictures/american-flag1-.jpg"
+            anchor.innerText = "+1 804123549"
+            })
+
+        grmy.addEventListener("click", () => {
+            img.src = "pictures/german-flag.jpg"
+            anchor.innerText = "+49 303287865"
+            })
+
+
+        
+        window.addEventListener("scroll", function(){
+            var scroll = document.querySelector(".scrollTop");
+            scroll.classList.toggle("active", window.scrollY > 500)
+        })
+
+// The following functions takes you to top of website 
+        function scrollToTop(){
+            window.scrollTo({
+                top:0,
+                behavior:"smooth"
+            })
+        }
+
+
+    </script>
+
+
+</body>
+
+</html>
